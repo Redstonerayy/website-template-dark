@@ -6,20 +6,28 @@
 * {
   margin: 0;
   padding: 0;
-  background: #21252b;
+  background: #0d1117;
   font-family: 'Roboto', sans-serif;
 }
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 
 /* ==============================================================
                       HEADER
 ============================================================== */
+
 
 /* general  */
 
 .header {
   margin-top: 20px;
   text-align: center;
-  color: #1ec1bc;
+  color: #c9d1d9;
+  height: 8%;
 }
 
 .header > a, nav {
@@ -32,6 +40,7 @@
   text-align: center;
   color: inherit;
   font-size: 40px;
+  text-decoration: none;
 }
 
 .nav {
@@ -40,16 +49,20 @@
 }
 
 .nav > a {
-  padding: 5px;
+  margin: 5px;
   color: inherit;
   text-decoration: none;
   font-size: 20px;
 }
 
+nav > a:hover {
+  border-bottom: 3px solid #238636;
+}
+
 /* search  */
 
 .search {
-  color: #1ec1bc;
+  color: #c9d1d9;
   display: inline-block;
 }
 
@@ -86,6 +99,74 @@
 /* seperator  */
 
 .seperator-top {
-  margin-top: 30px;
   color: white;
+}
+
+
+/* ==============================================================
+                      CONTENT STYLE
+============================================================== */
+
+
+.content {
+  color: #c9d1d9;
+}
+
+.content > a {
+  text-decoration: none;
+}
+
+/* ==============================================================
+                      MAIN
+============================================================== */
+
+
+/* general  */
+
+.main {
+  width: 100%;
+}
+
+#main-content {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30px;
+  color: #c9d1d9;
+}
+
+#main-content > h1 {
+  text-align: center;
+}
+
+.seperator-bottom {
+  color: white;
+}
+
+
+/* ==============================================================
+                      FOOTER
+============================================================== */
+
+
+/* general  */
+
+.footer {
+  width: 100%;
+  height: 30%;
+}
+
+#footer-content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#footer-content > a {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  top: 10px;
+  color: #c9d1d9;
 }
