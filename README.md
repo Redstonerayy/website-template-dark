@@ -2,7 +2,7 @@
 
 Open issues to suggest improvements.
 
-##License
+## License
 
 MIT License
 https://mit-license.org/
