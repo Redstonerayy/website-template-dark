@@ -1,0 +1,91 @@
+/* fonst */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* css */
+
+* {
+  margin: 0;
+  padding: 0;
+  background: #21252b;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ==============================================================
+                      HEADER
+============================================================== */
+
+/* general  */
+
+.header {
+  margin-top: 20px;
+  text-align: center;
+  color: #1ec1bc;
+}
+
+.header > a, nav {
+  display: inline-block;
+}
+
+/* headline and navigation  */
+
+.headline {
+  text-align: center;
+  color: inherit;
+  font-size: 40px;
+}
+
+.nav {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.nav > a {
+  padding: 5px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* search  */
+
+.search {
+  color: #1ec1bc;
+  display: inline-block;
+}
+
+.search > * {
+  color: inherit;
+  font-size: 16px;
+}
+
+.search-input {
+  padding: 5px;
+  border-radius: 16px;
+  border: 2px solid white;
+  outline: none;
+}
+
+.search-input:focus {
+  background: white;
+  color: black;
+}
+
+.search-button {
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
+  border: 1px solid white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  opacity: 1;
+}
+/* seperator  */
+
+.seperator-top {
+  margin-top: 30px;
+  color: white;
+}
